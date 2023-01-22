@@ -1,0 +1,116 @@
+body{
+    background-image: url('img/fondo.jpg');
+    background-position: center center; /* Fijar la imagen de fondo este vertical y horizontalmente y centrado */
+    background-repeat: no-repeat; /* Esta imagen no debe de repetirse */
+    background-attachment: fixed; /* Con esta regla fijamos la imagen en la pantalla. */
+    background-size: cover; /* La imagen ocupa el 100% y se reescala */
+}
+
+.cuerpo{
+    background-image: url('img/copa-del-mundo.webp');
+    background-position: center center; /* Fijar la imagen de fondo este vertical y horizontalmente y centrado */
+    background-repeat: no-repeat; /* Esta imagen no debe de repetirse */
+    background-attachment: fixed; /* Con esta regla fijamos la imagen en la pantalla. */
+    background-size: cover; /* La imagen ocupa el 100% y se reescala */
+}
+
+h1{
+    font-family: 'Bungee', cursive;
+    font-size: 50px;
+}
+
+h2{
+    font-family: 'Bungee', cursive;
+    font-size: 30px;
+}
+
+.texto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #efb810;
+    /* margin-top: 50px; */
+}
+
+.titulo{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    color: #efb810;
+    margin-right: 100px;
+    /* margin-top: 50px; */
+}
+
+.btns, .grupos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    /* margin: 10px 2px; */
+}
+
+.btn1{
+    color: #efb810;
+    background: transparent;
+    border: 2px solid #efb810;
+    border-radius: 20px;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-size: large;
+    font-weight: bolder;
+}
+
+.btn1:hover{
+    color: #5a1021;
+    background: #efb810;
+    border: 2px solid  #5a1021;
+    border-radius: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: large;
+    font-weight: bolder;
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: large;
+    font-weight: bolder;
+}
+
+.footer{
+    width: 100%;
+    height: 81px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+label{
+    font-size: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+form button[type="submit"], button:hover{
+	cursor:pointer;
+}
+
+form input[type="number"]{
+	width:50px;
+	padding:3px 10px;
+	border:3px solid #f6f6f6;
+	border-radius:3px;
+	background-color:#efb810;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 18px;
+    text-align: center;
+    color: #5a1021;
+    text-align: center;
+	/* display:inline-block; */
+}

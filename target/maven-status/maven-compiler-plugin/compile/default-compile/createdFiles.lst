@@ -1,0 +1,5 @@
+datos\Conexion.class
+controller\ServletEquipo.class
+datos\EquipoDao.class
+com\uts\Main.class
+model\Equipo.class
